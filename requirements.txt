@@ -1,0 +1,7 @@
+dbfread
+xlrd
+pandas
+sklearn
+numpy
+matplotlib
+scipy

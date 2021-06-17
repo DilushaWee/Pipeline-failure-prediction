@@ -1,0 +1,17 @@
+docker run --rm -it -v %cd%:/Dockerfiletest:rw test:0.4 ls -al /Dockerfiletest
+docker run --rm -it -v %cd%:/Dockerfiletest:rw test:0.4
+docker build -t ww:03
+list images: docker images
+delete specific images: docker rmi 4e6437c1908e 4e6437c1908e
+
+Swtich to Linux containers manually
+
+
+
+docker tag ww:02 dilucsiro/test:ww
+docker push dilucsiro/test:ww
+
+
+docker run --rm -it -v %cd%:/Data61_WesternWater:rw ww:02
+
+

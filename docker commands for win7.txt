@@ -1,0 +1,13 @@
+https://stefanscherer.github.io/yes-you-can-docker-on-windows-7/
+1. install chocoltey
+2.choco install -y docker
+choco install -y docker-machine
+choco install -y docker-machine-vmwareworkstation
+
+
+3.docker-machine create --driver virtualbox default2
+4.docker-machine env default2
+@FOR /f "tokens=*" %i IN ('"C:\ProgramData\chocolatey\lib\docker-machi\bin\docker-machine.exe" env default2') DO @%i
+
+
+docker run --rm -it -v C:\\Dilusha\\Data61_WesternWater:/Data61_WesternWater:rw 

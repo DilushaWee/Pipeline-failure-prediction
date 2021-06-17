@@ -1,0 +1,2 @@
+1.  raw_data_file = './raw_data/western water/all_water_pipe_data.csv'
+2.  raw_failure_file = './raw_data/western water/incident_data.csv'
